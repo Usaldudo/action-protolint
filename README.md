@@ -1,15 +1,16 @@
 # reviewdog-action-protolint
 
-[![Test](https://github.com/yoheimuta/action-protolint/workflows/Test/badge.svg)](https://github.com/yoheimuta/action-protolint/actions?query=workflow%3ATest)
-[![reviewdog](https://github.com/yoheimuta/action-protolint/workflows/reviewdog/badge.svg)](https://github.com/yoheimuta/action-protolint/actions?query=workflow%3Areviewdog)
-[![depup](https://github.com/yoheimuta/action-protolint/workflows/depup/badge.svg)](https://github.com/yoheimuta/action-protolint/actions?query=workflow%3Adepup)
-[![release](https://github.com/yoheimuta/action-protolint/workflows/release/badge.svg)](https://github.com/yoheimuta/action-protolint/actions?query=workflow%3Arelease)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/yoheimuta/action-protolint?logo=github&sort=semver)](https://github.com/yoheimuta/action-protolint/releases)
+[![Test](https://github.com/Usaldudo/action-protolint/workflows/Test/badge.svg)](https://github.com/Usaldudo/action-protolint/actions?query=workflow%3ATest)
+[![reviewdog](https://github.com/Usaldudo/action-protolint/workflows/reviewdog/badge.svg)](https://github.com/Usaldudo/action-protolint/actions?query=workflow%3Areviewdog)
+[![depup](https://github.com/Usaldudo/action-protolint/workflows/depup/badge.svg)](https://github.com/Usaldudo/action-protolint/actions?query=workflow%3Adepup)
+[![release](https://github.com/Usaldudo/action-protolint/workflows/release/badge.svg)](https://github.com/Usaldudo/action-protolint/actions?query=workflow%3Arelease)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Usaldudo/action-protolint?logo=github&sort=semver)](https://github.com/Usaldudo/action-protolint/releases)
 [![action-bumpr supported](https://img.shields.io/badge/bumpr-supported-ff69b4?logo=github&link=https://github.com/haya14busa/action-bumpr)](https://github.com/haya14busa/action-bumpr)
 
 This GitHub Action runs [protolint](https://github.com/yoheimuta/protolint) with [reviewdog](https://github.com/reviewdog/reviewdog).
 
 ## Usage
+
 ```yaml
 name: reviewdog
 on: [pull_request]
@@ -67,4 +68,4 @@ inputs:
 
 ## Example repository
 
-https://github.com/yoheimuta/reviewdog-protolint-example/blob/main/.github/workflows/reviewdog.yml
+<https://github.com/yoheimuta/reviewdog-protolint-example/blob/main/.github/workflows/reviewdog.yml>
